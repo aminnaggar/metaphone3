@@ -1,0 +1,38 @@
+{
+  "name": "metaphone3",
+  "version": "1.0.0",
+  "description": "Metaphone 3 implementation",
+  "author": "Amin Naggar <aminnaggar@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminnaggar/metaphone3.git"
+  },
+  "bugs": "https://github.com/aminnaggar/metaphone3/issues",
+  "keywords": [
+    "metaphone",
+    "lawrence",
+    "philips",
+    "natural",
+    "language",
+    "phonetics"
+  ],
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
