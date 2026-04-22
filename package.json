@@ -30,9 +30,7 @@
   "devDependencies": {
     "@types/bun": "latest",
     "ts-node": "^10.9.2",
-    "tsup": "^8.0.2"
-  },
-  "peerDependencies": {
+    "tsup": "^8.0.2",
     "typescript": "^5.0.0"
   }
 }
